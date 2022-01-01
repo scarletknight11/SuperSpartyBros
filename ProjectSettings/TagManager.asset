@@ -4,19 +4,26 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - TutorialRequirement
   - Platform
   - Ground
+  - Collectables
+  - Deathzone
+  - Enemy
+  - QuestionBlock
+  - Speed
+  - Door
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
-  - Player
+  - fence
   - Platform
-  - Ground
-  - Background
+  - Mountains
+  - Deathzone
   - 
   - 
   - 
@@ -40,18 +47,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Background
-    uniqueID: 880001755
-    locked: 0
-  - name: Middleground
-    uniqueID: 2182045401
-    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Player
-    uniqueID: 3720458851
+  - name: Empty
+    uniqueID: 1678975653
     locked: 0
-  - name: Foreground
-    uniqueID: 2270590661
+  - name: Fence
+    uniqueID: 1369671505
     locked: 0
